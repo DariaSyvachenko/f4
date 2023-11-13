@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syvachenko_D.E._IA-13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Сиваченко Дар'я Євгенівна</h2>
+    <p>12.07.2004,м.Київ</p>
+    <p>НТУУ Київський політехнічний інститут ім. Ігоря Сікорського,3 курс </p>
+    <p>Мої хобі:</p>
+    <ul>
+        <li>Читання книг</li>
+        <li>Волейбол</li>
+        <li>В'язання</li>
+    </ul>
+    
+    <p>Мої улюблені фільми:</p>
+    <ol>
+        <li>Вбивство на Ніллі</li>
+        <li id="element1" onclick="changeColorById()">Місія Кандагар</li>
+        <li id="element2" onclick="changeColorByQuerySelector()">Перекладачі</li>
+    </ol>
+    <p>На берегах Дніпра розкинулося одне з найкрасивіших міст Європи – Київ. Столиця України має цікаву та насичену історію і водночас є сучасним промисловим,<br> науковим та культурним центром нашої держави.
+        Перша згадка про Київ в письмових джерелах датується 482 роком. На долю столиці України припало чимало <br> різних випробувань, але місто зуміло зберегти свою красу  і чимало історичних пам’яток, вік яких сягає далеко у глибину століть.</p>
+        
+        <a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%B8%D1%97%D0%B2"  target="_blank">
+            <img  id="myImage" src="img/kyiv.jpg" alt="kyiv-image" width="800" height="550"></a>
+    </a>
+            <div>
+                <button onclick="addImage()">Додати</button>
+                <button onclick="increaseImageSize()">Збільшити</button>
+                <button onclick="decreaseImageSize()">Зменшити</button>
+                <button onclick="deleteImage()">Видалити</button>
+            </div>
+     <script src="click.js"></script>
+     <script src="button.js"></script>
+</body>
+</html>
+
+
+
